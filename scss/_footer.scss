@@ -1,0 +1,59 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    min-height: 300px;
+    max-height: 600px;
+
+    background: #D9D9D9;
+    gap: 30px;
+    #top {
+        display: flex;
+        max-width: 99%;
+        gap: 20px;
+        #paginas {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0;
+            p {
+                font-family: 'Lato';
+                font-weight: 400;
+                font-size: 16px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        #redes {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            max-width: 99%;
+            padding: 0;
+        }
+        #company {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            max-width: 99%;
+            padding: 0;
+        }
+    }
+    #texto {
+        display: flex;
+        justify-content: center;
+        max-width: 99%;
+        padding: 0;
+        p {
+            max-width: 1350px;
+            text-align: center;
+            padding: 0;
+        }
+    }
+}
